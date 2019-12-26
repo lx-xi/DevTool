@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "XDevTool"
-  spec.version      = "0.0.1"
-  spec.summary      = "1：Label多段点击；2：密码输入；3：模态转场动画"
+  spec.name         = 'XDevTool'
+  spec.version      = '0.0.1'
+  spec.summary      = '1：Label多段点击；2：密码输入；3：模态转场动画'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  TODO: Add long description of the pod here.
                    DESC
 
-  spec.homepage     = "https://github.com/lx-xi/DevTool"
+  spec.homepage     = 'https://github.com/lx-xi/DevTool'
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  spec.license      = 'MIT'
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,8 +53,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "muxilx" => "muxilx@163.com" }
-  # Or just: spec.author    = "muxilx"
+  spec.author             = { 'muxilx' => 'muxilx@163.com' }
+  # Or just: spec.author    = 'muxilx'
   # spec.authors            = { "muxilx" => "muxilx@163.com" }
   # spec.social_media_url   = "https://twitter.com/muxilx"
 
@@ -67,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = '9.0'
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lx-xi/DevTool.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => 'https://github.com/lx-xi/DevTool.git', :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/*"
+  spec.source_files  = 'Classes/*'
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
