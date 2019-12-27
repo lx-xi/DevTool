@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-MoeNetwork is available through [CocoaPods](https://cocoapods.org). To install
+XDevTool is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -26,4 +26,4 @@ muxilx@163.com
 
 ## License
 
-MoeNetwork is available under the MIT license. See the LICENSE file for more info.
+XDevTool is available under the MIT license. See the LICENSE file for more info.
