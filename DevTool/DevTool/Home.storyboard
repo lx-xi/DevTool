@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -75,10 +75,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5c-Zi-U6w">
+                                <rect key="frame" x="38" y="499" width="338" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aki-zl-nlD"/>
+                                </constraints>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="alertSheetAction:" destination="9uK-dM-qVK" eventType="touchUpInside" id="52O-ip-8SH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94120436910000005" green="0.9411485195" blue="0.94117802380000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Dwu-gL-EtB" firstAttribute="top" secondItem="5tX-UZ-LQ7" secondAttribute="bottom" constant="15" id="9kw-L9-htu"/>
+                            <constraint firstItem="bhY-LK-EI0" firstAttribute="trailing" secondItem="D5c-Zi-U6w" secondAttribute="trailing" constant="38" id="CNi-qh-PkR"/>
                             <constraint firstItem="5tX-UZ-LQ7" firstAttribute="top" secondItem="Zr4-t5-6gJ" secondAttribute="bottom" constant="60" id="COh-h1-FDK"/>
                             <constraint firstItem="Zr4-t5-6gJ" firstAttribute="leading" secondItem="bhY-LK-EI0" secondAttribute="leading" constant="40" id="FF8-29-fFm"/>
                             <constraint firstItem="bhY-LK-EI0" firstAttribute="trailing" secondItem="Zr4-t5-6gJ" secondAttribute="trailing" constant="40" id="FTj-uv-x8a"/>
@@ -88,9 +99,11 @@
                             <constraint firstItem="Zr4-t5-6gJ" firstAttribute="top" secondItem="Wuv-ho-R1X" secondAttribute="bottom" constant="15" id="UJ8-CJ-hxT"/>
                             <constraint firstItem="6kR-gC-gmQ" firstAttribute="top" secondItem="QRx-ff-gqc" secondAttribute="bottom" constant="15" id="Z3B-uG-q3F"/>
                             <constraint firstItem="QRx-ff-gqc" firstAttribute="top" secondItem="bhY-LK-EI0" secondAttribute="top" constant="30" id="eZy-zM-tI4"/>
+                            <constraint firstItem="D5c-Zi-U6w" firstAttribute="top" secondItem="Dwu-gL-EtB" secondAttribute="bottom" constant="15" id="fq6-9n-CiV"/>
                             <constraint firstItem="6kR-gC-gmQ" firstAttribute="leading" secondItem="bhY-LK-EI0" secondAttribute="leading" constant="40" id="kWX-GW-Mfk"/>
                             <constraint firstItem="Wuv-ho-R1X" firstAttribute="top" secondItem="6kR-gC-gmQ" secondAttribute="bottom" constant="60" id="ofU-oL-1Pw"/>
                             <constraint firstItem="bhY-LK-EI0" firstAttribute="trailing" secondItem="6kR-gC-gmQ" secondAttribute="trailing" constant="40" id="xOx-Ku-dNf"/>
+                            <constraint firstItem="D5c-Zi-U6w" firstAttribute="leading" secondItem="bhY-LK-EI0" secondAttribute="leading" constant="38" id="xcJ-kC-ebV"/>
                             <constraint firstItem="Wuv-ho-R1X" firstAttribute="centerX" secondItem="8Cs-w0-bZX" secondAttribute="centerX" id="yi7-v5-66e"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bhY-LK-EI0"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E49AAA4242DFB6A006CBAB2 /* XAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49AAA3242DFB6A006CBAB2 /* XAlertView.swift */; };
 		8ECEFE8023B300E1004F48B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEFE7F23B300E1004F48B3 /* AppDelegate.swift */; };
 		8ECEFE8923B300E5004F48B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEFE8823B300E5004F48B3 /* Assets.xcassets */; };
 		8ECEFE8C23B300E5004F48B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEFE8A23B300E5004F48B3 /* LaunchScreen.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		1958FB4CBBA20CF1E618D9EA /* Pods-DevTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevTool.release.xcconfig"; path = "Target Support Files/Pods-DevTool/Pods-DevTool.release.xcconfig"; sourceTree = "<group>"; };
 		39A8FA97097072BC0EC0AE9E /* Pods_DevTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E49AAA3242DFB6A006CBAB2 /* XAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertView.swift; sourceTree = "<group>"; };
 		8ECEFE7C23B300E1004F48B3 /* DevTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECEFE7F23B300E1004F48B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ECEFE8823B300E5004F48B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				8ECEFE9C23B304A7004F48B3 /* XTouchLabel.swift */,
 				8ECEFE9823B30484004F48B3 /* XIntervalTFView.swift */,
 				8ECEFE9A23B30494004F48B3 /* XTransitionAnimator.swift */,
+				8E49AAA3242DFB6A006CBAB2 /* XAlertView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				8ECEFEA123B3410F004F48B3 /* SecVC.swift in Sources */,
 				8ECEFE9D23B304A7004F48B3 /* XTouchLabel.swift in Sources */,
 				8ECEFE9423B30166004F48B3 /* HomeVC.swift in Sources */,
+				8E49AAA4242DFB6A006CBAB2 /* XAlertView.swift in Sources */,
 				8ECEFE9F23B30EB9004F48B3 /* Extension-XView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
